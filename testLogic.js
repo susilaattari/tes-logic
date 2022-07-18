@@ -9,7 +9,7 @@ function angka() {
 }
 function frondEnd(){
     let arr=angka()
-    for (let index = 2; index < 50; index+=3) {
+    for (let index = 3-1; index < 50; index+=3) {
         
         arr[index]='FrondEnd'
     }
@@ -17,7 +17,7 @@ function frondEnd(){
 }
 function backend() {
     let fe = frondEnd()
-    for (let index = 4; index < 50; index+=5) {
+    for (let index = 5-1; index < 50; index+=5) {
         
         fe[index]='backend'
     }
@@ -26,7 +26,7 @@ function backend() {
 
 function FrontendBackend() {
     let be = backend()
-    for (let index = 14; index < 50; index+=15) {
+    for (let index = 15-1; index < 50; index+=15) {
         
         be[index]='Frontend Backend'
     }
